@@ -10,11 +10,12 @@ It demonstrated :
 * Swift calling Objective-C function from Swift function
 * and integrated Cocoapods with powerful libs created by Objective-C
 
-* SwiftIPManager.swift
+
+SwiftIPManager.swift
 一個使用 AFNetworking 取得 IP 的類別
 並且 定義 @objc 開放給 Objective-C 呼叫
 
-* ObjcIPManager.h
+ObjcIPManager.h
 裡面提供兩個 function: 
   1. getIP (使用 Objective-C 語法)
   2. getIPFromSwift (在 Objective-C 中 呼叫 Swift)
